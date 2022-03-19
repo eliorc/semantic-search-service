@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "semantic-search-service"
+version = "0.1.0"
+description = ""
+authors = ["elior <elior.cohen.p@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+sentence-transformers = "^2.2.0"
+scikit-learn = "^1.0.2"
+fastapi = "^0.75.0"
+uvicorn = "^0.17.6"
+peewee = "^3.14.10"
+psycopg2-binary = "^2.9.3"
+python-multipart = "^0.0.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
