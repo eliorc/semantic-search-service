@@ -22,6 +22,7 @@ class Term(pw.Model):
 
     class Meta:
         database = db
+        db_table = 'semantic_service_terms'
 
 
 with db.atomic():
